@@ -9,10 +9,10 @@ const __dirname = dirname(__filename);
 
 export default {
     server: {
-        port: 3000
+        port: 3010
     },
     images: {
-        cache: path.join(__dirname, 'cache'),
-        upload: path.join(__dirname, 'public')
+        cache: './cache',
+        upload: '/mnt/images/'
     }
 };
